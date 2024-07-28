@@ -1,6 +1,8 @@
 # collecting-data-about-norwegian-agriculture
 
 
+Approaches:
+
 Nibio
 
 The website has a navigation menu on the home page and stores subject URLs hierarchically in a javascript block. To approach the hierarchical structure we used recursion. We downloaded the high-level topics and their descriptions and then retrieved URLs for all the lower-level web pages recursively. Then we downloaded lower-level web pages and parsed them with the BeautifulSoup tool
@@ -28,12 +30,12 @@ The number of the webpages that remained after removing was 1090
 ---
 Om Norsk Landbruksrådgiving (NLR)
 
-The Fagartikler page had a filter where you could select a category or a region. Then web pages were selected dynamically. Therefore URLs for articles were unreachable from the static HTML file.
+The Fagartikler page had a filter where you could select a category or region and then web pages were loaded. Therefore URLs for articles were selected dynamically and unreachable from the static HTML file.
 We found that the URL for each article has the following structure:
 
 https://www.nlr.no/fagartikler/kategori/region/title
 
-For each category and region, we collected a set of titles by copying manually from the website and storing them in a JSON file under the corresponding URL prefix. Then we constructed URLs.
+Per each category and region, we collected titles, by manually copying them from the website and storing them in a JSON file under the corresponding URL prefix. Then we constructed URLs.
 
 Exceptions:
 - Some URLs contained version 2:

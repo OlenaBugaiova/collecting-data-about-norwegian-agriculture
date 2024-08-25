@@ -1,7 +1,12 @@
-# collecting-data-about-norwegian-agriculture
+# Collecting data about Norwegian agriculture
 
+All data is derived from the following websites:
 
-Approaches:
+- [Nibio.no](https://www.nibio.no/)
+- [Plantevernleksikonet.no](https://www.plantevernleksikonet.no/)
+- [nlr.no](https://www.nlr.no/fagartikler)
+
+### Approaches:
 
 Nibio
 

@@ -56,3 +56,10 @@ saved non-empty web pages and URLs for the empty ones
 repeated the procedure.
 3. Then we parsed webpages with Beautiful Soup.
 Some web pages were empty because a title was modified or the article was located under one region but the URL references to another region. We didn’t handle those cases.
+
+
+---
+
+### DOI
+[![DOI](https://zenodo.org/badge/834213332.svg)](https://zenodo.org/doi/10.5281/zenodo.13371100)
+                                

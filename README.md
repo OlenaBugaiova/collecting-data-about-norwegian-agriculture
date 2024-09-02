@@ -12,6 +12,8 @@ Nibio
 
 The website has a navigation menu on the home page and stores subject URLs hierarchically in a javascript block. To approach the hierarchical structure we used recursion. We downloaded the high-level topics and their descriptions and then retrieved URLs for all the lower-level web pages recursively. Then we downloaded lower-level web pages and parsed them with the BeautifulSoup tool
 
+See [the code](https://github.com/OlenaBugaiova/collecting-data-about-norwegian-agriculture/blob/main/code/NIBIO_Web_Scraping_of_Agriculture_Text.ipynb)
+
 ---
 Plantevernleksikonet
 
@@ -31,6 +33,9 @@ Some web pages had headers but no text content. In that case, they showed the fo
 like in this example: https://www.plantevernleksikonet.no/l/oppslag/679/, we ignored them.
 
 The number of the webpages that remained after removing was 1090
+
+See [the code](https://github.com/OlenaBugaiova/collecting-data-about-norwegian-agriculture/blob/main/code/Plantevernleksikonet_Web_Scraping_of_Agriculture_Text.ipynb)
+
 
 ---
 Om Norsk Landbruksrådgiving (NLR)
@@ -57,6 +62,7 @@ repeated the procedure.
 3. Then we parsed webpages with Beautiful Soup.
 Some web pages were empty because a title was modified or the article was located under one region but the URL references to another region. We didn’t handle those cases.
 
+See [the code](https://github.com/OlenaBugaiova/collecting-data-about-norwegian-agriculture/blob/main/code/NLR_Web_Scraping_of_Agriculture_Text.ipynb)
 
 ---
 

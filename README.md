@@ -4,7 +4,7 @@ All data is derived from the following websites:
 
 - [Nibio.no](https://www.nibio.no/)
 - [Plantevernleksikonet.no](https://www.plantevernleksikonet.no/)
-- [nlr.no](https://www.nlr.no/fagartikler)
+- [nlr.no](https://www.nlr.no/)
 
 ### Approaches:
 
@@ -63,6 +63,29 @@ repeated the procedure.
 Some web pages were empty because a title was modified or the article was located under one region but the URL references to another region. We didn’t handle those cases.
 
 See [the code](https://github.com/OlenaBugaiova/collecting-data-about-norwegian-agriculture/blob/main/code/NLR_Web_Scraping_of_Agriculture_Text.ipynb)
+
+---
+
+### Data Sources, Licenses, and Attribution
+
+This dataset compiles publicly available Norwegian agronomic texts from three sources. Please note that the underlying text remains subject to the terms and licenses of each original provider:
+
+1. **Plantevernleksikonet (1,090 articles)**
+   * **Source:** [Plantevernleksikonet](https://www.plantevernleksikonet.no/) (NIBIO)
+   * **License:** [Norwegian Licence for Open Government Data (NLOD 2.0)](https://norge.no)
+   * **Attribution:** *Inneholder informasjon under Norsk lisens for offentlige data (NLOD), tilgjengeliggjort gjennom NIBIO – https://plantevernleksikonet.no/*  
+     *(Contains information under the Norwegian Licence for Open Government Data (NLOD), made available through NIBIO – https://plantevernleksikonet.no/)*
+   * **Notice:** Inclusion in this dataset does not imply endorsement by NIBIO or Plantevernleksikonet.
+
+2. **NIBIO – Norwegian Institute of Bioeconomy Research (497 articles)**
+   * **Source:** [NIBIO](https://www.nibio.no/)
+   * **Terms:** Used with source attribution in accordance with NIBIO's public information guidelines (*Kjelde: NIBIO – https://www.nibio.no/*).
+
+3. **NLR – Norsk Landbruksrådgiving (707 articles)**
+   * **Source:** [Norsk Landbruksrådgiving (NLR)](https://www.nlr.no/)
+   * **Terms:** Copyright © Norsk Landbruksrådgiving. Included for non-commercial academic research purposes. Rights holders may contact the repository maintainers regarding content updates or removal.
+
+*Note: Any open-source license applied to this repository (e.g., for code, metadata, or dataset structure) applies solely to the authors' original contributions and does not override the original licenses or copyright terms of the source texts listed above.*
 
 ---
 

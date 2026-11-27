@@ -3,8 +3,12 @@
 All data is derived from the following websites:
 
 - [Nibio.no](https://www.nibio.no/)
-- [Plantevernleksikonet.no](https://www.plantevernleksikonet.no/)
-- [nlr.no](https://www.nlr.no/)
+- [Plantevernleksikonet.no](https://www.plantevernleksikonet.no/) (NIBIO)
+- [nlr.no](https://www.nlr.no/) *(scraping code only; text data not hosted)*
+
+> Data Availability & Copyright Notice: The text data from Norsk Landbruksrådgiving (nlr.no) is not included in this repository out of respect for third-party copyright and database protections under the Norwegian Copyright Act (Åndsverkloven). The web-scraping script remains available for researchers who wish to reproduce the data locally for authorized research purposes. Publicly licensed texts from NIBIO (nibio.no and plantevernleksikonet.no, an open plant-protection encyclopedia published by NIBIO) remain available with attribution. These texts are shared in accordance with Norwegian public-sector open data guidelines ([NLOD 2.0](https://data.norge.no/nlod/en/2.0)).
+
+---
 
 ### Approaches:
 
@@ -68,24 +72,21 @@ See [the code](https://github.com/OlenaBugaiova/collecting-data-about-norwegian-
 
 ### Data Sources, Licenses, and Attribution
 
-This dataset compiles publicly available Norwegian agronomic texts from three sources. Please note that the underlying text remains subject to the terms and licenses of each original provider:
+This dataset compiles publicly available Norwegian agronomic texts from the following sources. Please note that the underlying text remains subject to the terms and licenses of each original provider:
 
-1. **Plantevernleksikonet (1,090 articles)**
-   * **Source:** [Plantevernleksikonet](https://www.plantevernleksikonet.no/) (NIBIO)
-   * **License:** [Norwegian Licence for Open Government Data (NLOD 2.0)](https://norge.no)
-   * **Attribution:** *Inneholder informasjon under Norsk lisens for offentlige data (NLOD), tilgjengeliggjort gjennom NIBIO – https://plantevernleksikonet.no/*  
-     *(Contains information under the Norwegian Licence for Open Government Data (NLOD), made available through NIBIO – https://plantevernleksikonet.no/)*
-   * **Notice:** Inclusion in this dataset does not imply endorsement by NIBIO or Plantevernleksikonet.
+1. Plantevernleksikonet (1,090 articles)
+   * License: [Norwegian Licence for Open Government Data (NLOD 2.0)](https://data.norge.no/nlod/en/2.0)
+   * Attribution: Inneholder informasjon under Norsk lisens for offentlige data (NLOD), tilgjengeliggjort gjennom NIBIO  
+     (Contains information under the Norwegian Licence for Open Government Data (NLOD), made available through NIBIO)
+   * Notice: Inclusion in this dataset does not imply endorsement by NIBIO or Plantevernleksikonet.
 
-2. **NIBIO – Norwegian Institute of Bioeconomy Research (497 articles)**
-   * **Source:** [NIBIO](https://www.nibio.no/)
-   * **Terms:** Used with source attribution in accordance with NIBIO's public information guidelines (*Kjelde: NIBIO – https://www.nibio.no/*).
+2. NIBIO – Norwegian Institute of Bioeconomy Research (497 articles)
+   * Terms: Used with source attribution in accordance with NIBIO's public information guidelines (*Kjelde: NIBIO*).
 
-3. **NLR – Norsk Landbruksrådgiving (707 articles)**
-   * **Source:** [Norsk Landbruksrådgiving (NLR)](https://www.nlr.no/)
-   * **Terms:** Copyright © Norsk Landbruksrådgiving. Included for non-commercial academic research purposes. Rights holders may contact the repository maintainers regarding content updates or removal.
+3. NLR – Norsk Landbruksrådgiving (text data not included)
+   * Terms: Text data is not provided in this repository (see the [Data Availability & Copyright Notice](#data-availability--copyright-notice) above); only the scraping code is provided.
 
-*Note: Any open-source license applied to this repository (e.g., for code, metadata, or dataset structure) applies solely to the authors' original contributions and does not override the original licenses or copyright terms of the source texts listed above.*
+*Note: The MIT License in this repository applies solely to the authors' original contributions and does not override the original licenses or copyright terms of the source texts listed above.*
 
 ---
 

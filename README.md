@@ -74,17 +74,17 @@ See [the code](https://github.com/OlenaBugaiova/collecting-data-about-norwegian-
 
 This dataset compiles publicly available Norwegian agronomic texts from the following sources. Please note that the underlying text remains subject to the terms and licenses of each original provider:
 
-1. Plantevernleksikonet (1,090 articles)
-   * License: [Norwegian Licence for Open Government Data (NLOD 2.0)](https://data.norge.no/nlod/en/2.0)
-   * Attribution: Inneholder informasjon under Norsk lisens for offentlige data (NLOD), tilgjengeliggjort gjennom NIBIO  
+Plantevernleksikonet (1,090 articles)
+ - License: [Norwegian Licence for Open Government Data (NLOD 2.0)](https://data.norge.no/nlod/en/2.0)
+ - Attribution: Inneholder informasjon under Norsk lisens for offentlige data (NLOD), tilgjengeliggjort gjennom NIBIO  
      (Contains information under the Norwegian Licence for Open Government Data (NLOD), made available through NIBIO)
-   * Notice: Inclusion in this dataset does not imply endorsement by NIBIO or Plantevernleksikonet.
+ - Notice: Inclusion in this dataset does not imply endorsement by NIBIO or Plantevernleksikonet.
 
-2. NIBIO – Norwegian Institute of Bioeconomy Research (497 articles)
-   * Terms: Used with source attribution in accordance with NIBIO's public information guidelines (*Kjelde: NIBIO*).
+NIBIO – Norwegian Institute of Bioeconomy Research (497 articles)
+  - Terms: Used with source attribution in accordance with NIBIO's public information guidelines (*Kjelde: NIBIO*).
 
-3. NLR – Norsk Landbruksrådgiving (text data not included)
-   * Terms: Text data is not provided in this repository (see the [Data Availability & Copyright Notice](#data-availability--copyright-notice) above); only the scraping code is provided.
+NLR – Norsk Landbruksrådgiving (text data not included)
+  - Terms: Text data is not provided in this repository (see the [Data Availability & Copyright Notice](#data-availability--copyright-notice) above); only the scraping code is provided.
 
 *Note: The MIT License in this repository applies solely to the authors' original contributions and does not override the original licenses or copyright terms of the source texts listed above.*
 
